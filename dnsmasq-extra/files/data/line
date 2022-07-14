@@ -1,5 +1,5 @@
 #!/bin/sh
-curl 'cip.cc' > /tmp/line.txt
+curl 'cip.cc' > /etc/line.txt
 LINE=/etc/line.txt
 #if cat $LINE | grep -q 联通; then
 #echo unicom
